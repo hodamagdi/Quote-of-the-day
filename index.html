@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sofia&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <section class="vh-100 d-flex justify-content-center align-items-center " >
+            <div class="text-center text-white position-relative container">
+                <div class="badge position-absolute top-0 start-50 translate-middle bg-black py-2 px-3 fs-1">
+                    QUOTE OF THE DAY
+                </div>
+                <div id="quote" class="mt-5 p-5 fs-2">
+                    “In three words I can sum up everything I've learned about life: it goes on.”
+                </div>
+                <div id="author" class="mt-5">
+                    ― Robert Frost
+                </div>
+                <button class="btn btn-dark m-5" onclick="getQuote()">
+                    Get New Quote
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

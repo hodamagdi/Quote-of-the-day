@@ -1,0 +1,27 @@
+main {
+    height: 100vh;
+    background-image: url(../imgs/39303eff-4a85-42f7-be89-759bb778f65b.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.badge {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    color: bisque;
+}
+
+#quote,
+#author {
+    font-family: "Sofia", cursive;
+}
+
+button{
+color: bisque !important;
+}
